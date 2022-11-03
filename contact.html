@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Beastly&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="icon" href="images/nlp.jpg" type="image/icon type">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="contact.css">
+    <title>NLP - Contact</title>
+    <script src="js/project.js"></script>
+    <script defer src="js/contact.js"></script>
+</head>
+
+<body>
+    <header class="container-fluid">
+        <div class="container">
+            <div class="burger">
+                <i class="fa fa-bars" id="burger_btn" style="font-size: 48px;" aria-hidden="true"></i>
+            </div>
+            <div class="logo">
+                <img src="images/nlp.jpg" width="100" alt="logo">
+            </div>
+            <nav id="id_nav_show_hide">
+                <a href="index.html">בית</a>
+                <a href="about.html">אודות</a>
+                <a href="faq.html">שאלות</a>
+                <a href="media.html">גלריה</a>
+                <a href="trivia.html">טריוויה</a>
+                <a href="contact.html" class="latest">יצירת קשר</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="contact container-fluid text-center">
+        <h2>נא להשאיר פרטים וניצור קשר בהקדם😉</h2>
+        <div class="container">
+            <div class="wrapper">
+                <form id="formId" action="thankyou.html">
+                    <div>
+                        <label for="id_name">שם פרטי:</label>
+                        <br>
+                        <input type="text" name="firstName" id="id_name" minlength="2" autofocus required>
+                    </div>
+                    <div>
+                        <label for="id_family">שם משפחה:</label>
+                        <br>
+                        <input type="text" name="lastName" id="id_family" minlength="2" required>
+                    </div>
+                    <div>
+                        <label>מגדר:</label>
+                        <input type="radio" name="gender" value="male" checked>זכר
+                        <input type="radio" name="gender" value="female">נקבה
+                    </div>
+                    <div>
+                        <label for="id_age">גיל:</label>
+                        <select name="age" id="id_age">
+                            <option value="under 10">קטן מ-10</option>
+                            <option value="between 10 and 18">בין 10 ל-18</option>
+                            <option value="between 18 and 30">בין 18 ל-30</option>
+                            <option value="over 30">מעל 30</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="id_phone">נייד:</label>
+                        <br>
+                        <input type="tel" name="phone" id="id_phone" placeholder="052-538-1648" minlength="9" required>
+                    </div>
+                    <div>
+                        <label for="id_email">אימייל:</label>
+                        <br>
+                        <input type="email" name="mail" id="id_email" placeholder="israel@gmail.com" minlength="5" required>
+                    </div>
+                    <button class="btn_send">שלח</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container-fluid text-center">
+        <div class="container">
+            <div class="row">
+                <div class="top col-md-4">
+                    <h4>כתובתינו</h4>
+                    <div class="row">
+                        <div class="in mb-3">
+                            <a href="https://goo.gl/maps/Zp8DBYnESfmUAfky6" target="_blank" class="col-12 tel">ארז
+                                12,
+                                אבני
+                                חפץ</a>
+                        </div>
+                        <div class="into">
+                            <a href="https://www.operationlp.com/nlp/" target="_blank" class="col-12 m-2">מה זה NLP?</a>
+                            <a href="https://www.nlpplus.co.il/category/%D7%9E%D7%90%D7%9E%D7%A8%D7%99%D7%9D/"
+                                target="_blank" class="col-12">מאמרים נוספים</a>
+                        </div>
+                        <div class="rights">
+                            <p>כל הזכויות שמורות &copy; hadassa NLP Ltd</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="top col-md-4 ">
+                    <h4>צרו קשר</h4>
+                    <div class="row">
+                        <div class="in">
+                            <a href="tel:052-412-5553" class="col-12 tel">052-4125553</a>
+                            <a href="https://wa.me/972524125553" target="_blank">
+                                <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="in">
+                            <a href="mailto:hdsa13@gmail.com" target="_blank" class="col-12 tel">hdsa13@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="top col-md-4">
+                    <h4>עקבו אחרינו</h4>
+                    <div class="d-flex justify-content-around align-items-center">
+                        <a href="https://www.facebook.com/people/%D7%94%D7%93%D7%A1%D7%94-%D7%92%D7%91%D7%90%D7%99/100000412115830/"
+                            target="_blank">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://www.instagram.com/hadassa_sp/" target="_blank">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCka1CMrDfgz8nWn7eS7_Msw/videos" target="_blank">
+                            <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://www.tiktok.com/@hadassahgabay0" target="_blank">
+                            <i class="fab fa-tiktok" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    <div class="down">
+                        <a href="index.html">לחזרה לעמוד הבית</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

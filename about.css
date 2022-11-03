@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(315deg, rgba(2, 0, 36, 1) 0%, rgba(22, 218, 100, 1) 6%, rgba(0, 212, 255, 1) 56%);
+}
+
+.about {
+    padding: 24px;
+}
+
+.about .firstDiv {
+    padding: 12px;
+    min-height: 500px;
+}
+
+.about h1 {
+    font-size: 100px;
+    font-style: italic;
+    font-weight: bolder;
+    padding-bottom: 48px;
+    color: #e7d16f;
+    text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4, 2px 1px 1px #5dabcd, 2px 3px 2px #378ab4, 3px 2px 2px #5dabcd, 3px 4px 2px #378ab4, 4px 3px 3px #5dabcd, 4px 5px 3px #378ab4, 5px 4px 2px #5dabcd, 5px 6px 2px #378ab4, 6px 5px 2px #5dabcd, 6px 7px 1px #378ab4, 7px 6px 1px #5dabcd, 7px 8px 0px #378ab4, 8px 7px 0px #5dabcd;
+}
+
+.about .firstDiv .div_img {
+    float: left;
+    padding-right: 24px;
+}
+
+.about .secondDiv {
+    padding: 12px;
+}
+
+.about .secondDiv h2 {
+    font-style: italic;
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 48px;
+    color: #e0dfdc;
+    letter-spacing: .1em;
+    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0, 0, 0, 0.9);
+}
+
+.about .secondDiv .div_img {
+    float: right;
+    padding-left: 48px;
+}
+
+@media (max-width:768px) {
+    .about h1 {
+        font-size: 80px;
+    }
+
+    .about .firstDiv .div_img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 24px;
+        padding-left: 16px;
+    }
+
+    .about .firstDiv .div_img img {
+        content: url(images_response/hadassa1_optimized.jpg);
+    }
+
+    .about .secondDiv h2 {
+        font-size: 40px;
+    }
+
+    .about .secondDiv .div_img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 36px;
+    }
+
+    .about .secondDiv .div_img img {
+        content: url(images_response/hadassa2_optimized.jpg);
+    }
+
+}
