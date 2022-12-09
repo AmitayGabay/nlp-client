@@ -17,7 +17,7 @@ form.addEventListener("submit", async (e) => {
 })
 
 const sendDataToServer = (formData) => {
-    let url = "https://nlp-hadassa.herokuapp.com/client";
+    let url = "https://nlp-server.onrender.com/client";
     let xhr = new XMLHttpRequest();
     xhr.open("POST", url);
 
